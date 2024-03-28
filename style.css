@@ -1,0 +1,292 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e97676;
+    /* Target the element with class "logo" */
+.logo {
+  /* Display the element as inline-block to allow setting width and height */
+  display: inline-block;
+  
+  /* Adjust the width of the logo */
+  width: 700px;  /* You can adjust this value as needed */
+  
+  /* Add some margin for spacing */
+  margin: 40px;  /* Adjust margins as needed */
+}
+
+/* Optional: Style the anchor tag within the logo class */
+.logo a {
+  /* Remove default underline from links */
+  text-decoration: none;
+  
+  /* Adjust the logo hover effect (optional) */
+  color: #000;  /* Change this to the desired color */
+  opacity: 0.8;  /* Change this to adjust transparency */
+}
+
+/* Optional: Style the image within the logo class */
+.logo img {
+  /* Display the image in full width of its container */
+  width: 25%;
+  height: auto;
+  
+}
+
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #fff;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    
+  }
+  
+  .navigation {
+    float: right;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    color: #007bff;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding-bottom: 50px;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .hero-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-btn:hover {
+    background-color: #0062cc;
+  }
+  
+  .hero-img {
+    position: center;
+    bottom: 0;
+    width: 53%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .about {
+    margin-top: 100px;
+  }
+  
+  .about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .learn-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .learn-more:hover {
+    background-color: #0062cc;
+  }
+  
+  .programs {
+    margin-top: 120px;
+  }
+  
+  .programs h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .program-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .program {
+    width: calc(33% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .program h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333
+  
+
+    /* Contact Section Styles */
+/* Stories Section Styles */
+.stories {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.stories h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.story-image {
+  width: 10px;
+  height: 5px;
+  
+  margin-right: 10px;
+  border-radius: 1px;
+}
+
+.story h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.story p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.story-link {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.story-link:hover {
+  background-color: #0062cc;
+}
+.stories {
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.stories h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.stories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}  
+/* Header Styles */
+.header {
+  background-color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.logo img {
+  /* Adjust these styles based on your logo image size */
+  width: 100px;
+  height: auto;
+}
+
+video {
+  margin: 2rem auto;  /* Add some margin for spacing */
+  display: block;     /* Ensures video behaves like a block element */
+}
+
